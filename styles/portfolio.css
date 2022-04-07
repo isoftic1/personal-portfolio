@@ -1,0 +1,19 @@
+:root {
+--main-branding-color: #;
+--secondary-branding-color: #;
+--accent-color: #;
+--text-color: #;    
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 44px;
+    font-weight: 700;
+}
+
+p{
+font-family: 'Work Sans', sans-serif;
+font-size: 18px;
+}
