@@ -11,6 +11,7 @@ class Footer extends HTMLElement {
                 <li><a href="/work.html"title="Work page">Coding</a></li>
                     <li><a href="">Design</a></li>
                     <li><a href="/about.html" title="About page">About</a></li>
+                    
                     <li><a href="www.linkedin.com/in/isoftic1" title="Linked In" target="_blank"><i class="fab fa-linkedin"></i></i></a></li>
                     <li><a href="" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></i></a></li>
                     <li><a title="Dribbble Link" href="" target="_blank"><i class="fab fa-dribbble-square"></i></a></li>
