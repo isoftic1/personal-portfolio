@@ -4,6 +4,9 @@
 --accent-color: #;
 --text-color: #;    
 }
+header {
+    padding: 20px;
+}
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -136,7 +139,7 @@ p {
     cursor: pointer;
     border: 1px solid #7A9FBD; 
     padding: 10px 20px;
-    margin: 10px 10px 0px 10px;
+    
     text-decoration: none;
     color: #224470 !important;
     font-size: 1rem;
@@ -150,7 +153,7 @@ p {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .tech-icon {
-    max-width: 70%;
+    max-width: 75%;
 }
 
 /* Quote Styles */
@@ -215,3 +218,16 @@ small {
     text-transform: none;
     font-size: .8rem !important;
 }
+
+/* About Page Styles */
+    .alignment {
+        text-align: center;
+    }
+    .bio {
+        max-width: 1250px !important;
+    }
+    .about-quote {
+        background-color: #7A9FBD;
+        padding-top: 30px;
+        padding-bottom: 30px;        
+    }
