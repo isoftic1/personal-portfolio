@@ -5,6 +5,7 @@
     border-radius: 2px; 
     line-height: 40px;
     margin-right: 5px;
+    text-align: center;
 }
 
 .project-breakdown-background{
@@ -12,7 +13,50 @@
 
 }
 .project-breakdown{
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 20px;
 }
 
+/* Responsive Styles */
+@media (max-width: 1200px) {
+
+    .project-breakdown {
+        display: block;
+        max-width: 90%;
+        text-align: center;
+    }
+    .project-breakdown img {
+        max-width: 100%;
+     
+        margin: 10px;
+    }
+.header-image{
+    margin-top: -40px;
+}
+
+}
+
+@media (max-width: 570px) {
+
+    .project-breakdown {
+        padding-bottom: 20px;
+    }
+    .left-project {
+        padding-top: 10px;
+    }
+    .col-6 {
+        max-width: 100%;
+    }
+    .col-6 img {
+        max-width: 100%;
+        margin: 10px auto;
+    }
+    .project-breakdown img {
+        margin: 10px auto;
+        max-width: 100%;
+    }
+    .logo {
+        max-width: 250px;
+    }
+   
+}
