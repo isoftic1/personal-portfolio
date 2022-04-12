@@ -7,7 +7,7 @@ class Header extends HTMLElement {
       this.innerHTML = `
         <ul class="navbar-nav">
         <li class="nav-item px-1">
-        <a href="/work.html"title="Work page">Coding</a>
+        <a class="nav-link" title="Work page" href="/work.html">Coding</a>
         </li>
             <li class="nav-item px-1">
               <a class="nav-link" title="design page" href="">design</a>
