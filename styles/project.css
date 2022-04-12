@@ -1,0 +1,18 @@
+.technologies {
+    background:#7A9FBD;
+    color: black;
+    padding: 5px 15px;
+    border-radius: 2px; 
+    line-height: 40px;
+    margin-right: 5px;
+}
+
+.project-breakdown-background{
+    background-color: #7A9FBD;
+
+}
+.project-breakdown{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
